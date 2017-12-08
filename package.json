@@ -1,0 +1,27 @@
+{
+  "name": "twitter-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "twitter.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.5",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha *.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "engines": {
+    "node": "8.7.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

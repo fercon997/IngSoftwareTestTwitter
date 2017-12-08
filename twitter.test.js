@@ -11,7 +11,7 @@ var client = new Twitter({
 });
 
 
-var {app} = require('./twitterr');
+//var {app} = require('./twitterr');
 
 describe('GET un usuario en twitter', () => {
 

@@ -15,7 +15,7 @@ var client = new Twitter({
 
 describe('GET un usuario en twitter', () => {
 
-  it('Encuentra el usuario correctamente', (done) => {
+  it('Debería retornar el usuario correctamente', (done) => {
     var user= {
       screen_name: "freatyun"
     }
